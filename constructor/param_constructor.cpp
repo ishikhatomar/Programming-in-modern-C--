@@ -6,7 +6,8 @@ class Complex{
     private:
     double re_, im_;
     public:
-    Complex(double re, double im): re_(re), im_(im){}
+    Complex(double re, double im): // Constructor with parameters
+     re_(re), im_(im){}     //Initializer list: to initialize data members
    double norm(){
         return sqrt(re_*re_ +im_*im_);
     }
