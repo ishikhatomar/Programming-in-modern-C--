@@ -12,7 +12,7 @@ class Complex{
     }
 
     ~Complex(){
-        cout<<"Destructor: ("<<re_<<", "<<im_<<")"<<endl;
+        cout<<"Destructor: ("<<re_<<", "<<im_<<")"<<endl;   //Destructor
     }
 
     double norm(){
